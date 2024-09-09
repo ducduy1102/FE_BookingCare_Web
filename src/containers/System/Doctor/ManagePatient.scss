@@ -1,0 +1,37 @@
+div._loading_overlay_wrapper {
+  position: unset;
+  ._loading_overlay_overlay {
+    z-index: 10000000;
+  }
+}
+
+.manage-patient-container {
+  .manage-patient-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  .table-manage-patient {
+    button {
+      cursor: pointer;
+      margin-right: 10px;
+      height: 30px;
+      border-radius: 4px;
+      padding: 0 10px;
+      background: transparent;
+    }
+
+    .btn-confirm {
+      color: rgb(16, 131, 16);
+      margin-right: 10px;
+    }
+
+    .btn-cancel {
+      color: red;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.remedy-modal-container {
+  max-width: 600px;
+  .booking-modal-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .booking-modal-header {
+    height: 50px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+
+    .header-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .header-close {
+      padding: 4px 10px;
+      float: right;
+      cursor: pointer;
+    }
+  }
+}

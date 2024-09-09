@@ -1,0 +1,24 @@
+.btn {
+  border: none !important;
+}
+
+.table-specialty {
+  .btn-edit,
+  .btn-delete {
+    width: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+  }
+
+  .btn-edit {
+    color: orange;
+  }
+
+  .btn-delete {
+    color: red;
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "home-header": {
+    "specialty": "Medical specialty",
+    "search-doctor": "Find doctors by specialty",
+    "health-facility": "Health facility",
+    "choose-hospital": "Choose hospital by clinic",
+    "doctor": "Doctor",
+    "choose-doctor": "Choose a good doctor",
+    "fee": "Medical package",
+    "general-health-check": "General health check",
+    "support": "Support",
+    "welcome": "Welcome"
+  },
+
+  "banner": {
+    "main-title": "Medical platform",
+    "slogan": "Comprehensive health care",
+    "specialty": "Specialized examination",
+    "remote": "Remote examination",
+    "general": "General examination",
+    "medical-test": "Medical tests",
+    "mental-health": "Mental health",
+    "dental": "Dental examination"
+  },
+
+  "login": {
+    "login": "Login",
+    "username": "Username",
+    "password": "Password",
+    "userpass-wrong": "Invalid username or password!"
+  },
+
+  "menu": {
+    "admin": {
+      "manage-user": "Users System",
+      "manage-doctor": "Manage Doctors",
+      "manage-admin": "Manage Admin",
+      "crud": "CRUD User",
+      "crud-redux": "CRUD User with Redux",
+      "clinic": "Clinics",
+      "manage-clinic": "Manage Clinics",
+      "specialty": "Specialties",
+      "manage-specialty": "Manage Specialties",
+      "handbook": "Handbook",
+      "manage-handbook": "Manage Handbook"
+    },
+    "doctor": {
+      "manage-schedule": "Manage Doctor's schedule",
+      "selectDoctor": "------Select------",
+      "manage-patient": "Manage Doctor's patient"
+    }
+  },
+
+  "manage-user": {
+    "add": "Add a new user",
+    "edit": "Edit user",
+    "email": "Email",
+    "password": "Password",
+    "first-name": "First Name",
+    "last-name": "Last Name",
+    "phone-number": "Phone Number",
+    "address": "Address",
+    "gender": "Gender",
+    "position": "Position",
+    "role": "Role",
+    "avatar": "Avatar",
+    "save": "Save User",
+    "upload-image": "Upload image",
+    "actions": "Actions",
+    "not-found": "Not found user"
+  },
+
+  "homepage": {
+    "outstanding-doctor": "Doctor featured last week",
+    "more-infor": "See more",
+    "specialty-popular": "Popular specialties",
+    "outstanding-medical-facilities": "Outstanding medical facilities"
+  },
+
+  "manage-schedule": {
+    "title": "Manage doctor's medical examination plans",
+    "choose-doctor": "Choose doctor",
+    "choose-date": "Choose date",
+    "save": "Save information"
+  },
+
+  "manage-patient": {
+    "title": "Managing medical examination patients",
+    "select-date": "Select date",
+    "fullname": "Full name",
+    "time": "Time",
+    "confirm": "Confirm",
+    "cancel": "Hủy lịch hẹn",
+    "not-found-patient": "There are no patients scheduled for examination today",
+    "remedy-modal": {
+      "title": "Send prescription",
+      "patient-email": "Patient email",
+      "select-remedy": "Select prescription file",
+      "send": "Send",
+      "cancel": "Cancel"
+    }
+  },
+
+  "patient": {
+    "detail-doctor": {
+      "schedule": "Schedule",
+      "no-schedule": "The doctor does not have an appointments during this time. Please choose another time!",
+      "choose": "Choose ",
+      "book-free": " and book (free)"
+    },
+    "extra-infor-doctor": {
+      "text-address": "Medical examination address",
+      "price": "Price",
+      "detail": "See details",
+      "payment": "Patients can pay using payment methods",
+      "hide-price": "Hide price list"
+    },
+    "booking-modal": {
+      "title": "Information to book a medical appointment",
+      "fullname": "Fullname",
+      "phoneNumber": "Phone number",
+      "email": "Email",
+      "address": "Address",
+      "reason": "Reason for examination",
+      "birthday": "Birthday",
+      "gender": "Gender",
+      "selectGender": "Select...",
+      "btnConfirm": "Confirm",
+      "btnCancel": "Cancel",
+      "priceBooking": "Free appointment!",
+      "price": "Price",
+      "see-more": "See more"
+    },
+
+    "verify-email": {
+      "success": "Appointment confirmed successfully!",
+      "failed": "Appointment schedule does not exist or has been confirmed!"
+    }
+  },
+
+  "admin": {
+    "manage-doctor": {
+      "title": "Create more information doctors",
+      "select-doctor": "Select doctor",
+      "intro": "Introduction",
+      "add": "Create infor",
+      "save": "Save info",
+      "price": "Price",
+      "payment": "Payment",
+      "province": "Province",
+      "name-clinic": "Clinic's name",
+      "address-clinic": "Clinic's address",
+      "note": "Note",
+      "select-specialty": "Select specialty",
+      "select-clinic": "Select clinic"
+    }
+  },
+
+  "manage-specialty": {
+    "title": "Manage Specialty",
+    "name": "Name of specialty",
+    "image": "Image",
+    "btn-save": "Create",
+    "btn-edit": "Save change",
+    "actions": "Actions",
+    "not-found": "Not found specialty"
+  },
+
+  "manage-clinic": {
+    "title": "Manage clinic",
+    "name": "Name of clinic",
+    "address": "Address of clinic",
+    "image": "Image",
+    "btn-save": "Create",
+    "btn-edit": "Save change",
+    "description": "Description",
+    "introduction": "Introduction",
+    "professional-strengths": "Professional strengths",
+    "equipment": "Equipment",
+    "location": "Location",
+    "process": "Medical examination process",
+    "actions": "Actions",
+    "not-found": "Not found clinic / hospital"
+  }
+}

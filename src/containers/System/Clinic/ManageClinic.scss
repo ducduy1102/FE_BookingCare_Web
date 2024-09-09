@@ -1,0 +1,56 @@
+button {
+  border: none;
+  outline: none;
+}
+
+.manage-clinic-container {
+  .manage-clinic-title {
+    margin: 16px 0;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .md-editor-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+    .md-editor-child {
+      width: 50%;
+    }
+  }
+
+  .add-new-clinic {
+    button {
+      min-width: 80px;
+      padding: 8px 5px;
+      border-radius: 4px;
+    }
+  }
+
+  .preview-img-container {
+    .label-upload {
+      display: inline-block;
+      padding: 5px;
+      border-radius: 3px;
+      background: #ddd;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+
+    .preview-img {
+      margin-top: 5px;
+      height: 100px;
+      width: 100%;
+      border: 1px solid #ddd;
+      background: center center no-repeat;
+      background-size: contain;
+      cursor: pointer;
+    }
+  }
+}
